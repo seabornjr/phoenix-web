@@ -1,0 +1,11 @@
+{
+  "short_name": "Phoenix Web App",
+  "name": "Rising Phoenix Education",
+  "icons": [
+ 
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

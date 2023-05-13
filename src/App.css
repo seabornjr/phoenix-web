@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.widget-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  width: 18rem;
+
+}
+
+.button-container {
+
+    width: '90%'; 
+    background-color: '#FE5244';
+    border-radius: 10;
+    margin-top: 150;
+    margin-bottom: 50;
+
+}
+
+.register-widget-page {
+
+ 
+  align-items: center;
+  justify-content: center;
+}
+.register-form-header {
+  text-align: left;
+}
+
+.panels {
+  display: inline-block;
+ 
+  vertical-align: middle;
+}
+
+.login-container {
+  display: inline-block;
+ 
+  vertical-align: middle;
+}
+
+.button {
+  width: '90%';
+  background-color: #FE5244;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+  color: 'white';
+  width: '100%';
+  text-align: 'center';
+  font-weight: 'bold';
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2
+
+}
